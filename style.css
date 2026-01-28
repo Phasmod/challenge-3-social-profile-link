@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+background-color: #000000;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.social-card{
+  width: 40vh;
+  max-width: 100%;
+  height: auto;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+}
+
+.social-card img{
+  height: 10vh;
+  width: 10vh;
+  margin: 10px;
+  border-radius: 100%;
+}
+
+.social-card h3{
+  color: white;
+  margin: 5px;
+  font-size: 24px;
+}
+
+.social-card h4{
+  color: #c5f82a;
+  margin: 3px;
+  font-size: 14px;
+}
+
+.social-card p{
+  color: white;
+  margin: 15px;
+  font-size: 14px;
+}
+
+.social-card ul{list-style: none;
+cursor: pointer;}
+
+.social-card ul li{
+  margin: 22px;
+  background-color: #333333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.social-card ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.social-card ul li:hover{
+  background-color: #c5f82a;
+}
+
+.social-card ul li:hover a{
+  color: #000000;
+}
